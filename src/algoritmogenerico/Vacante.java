@@ -52,7 +52,7 @@ public class Vacante {
     }
  
     /**
-     * Añade un Maestro a la mochila
+     * Añade un Maestro a la vacante
      * @param e 
      */
     public void aniadirMaestro(Maestro e) {
@@ -69,7 +69,7 @@ public class Vacante {
     }
  
     /**
-     * Vaciamos la mochila
+     * Vaciamos la vacante
      */
     public void clear() {
         this.ValorPagar=0;
@@ -109,7 +109,7 @@ public class Vacante {
     }
  
     /**
-     * Muestra la mochila
+     * Muestra la vacante
      * @return 
      */
     public String toString() {
