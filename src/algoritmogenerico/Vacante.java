@@ -87,7 +87,7 @@ public class Vacante {
         for (int i = 0; i < this.maestros.length; i++) {
             if (this.maestros[i].equals(e)) {
                 this.maestros[i] = null; //el Maestro fuera
-                this.ValorPagar-=e.getValorPagar(); //Reduce el ValorPagar
+                this.ValorPagar-=e.getValorPagar(); //Reduce el Valor a pagar
                 this.Capacidades-=e.getCapacidades(); // reduce el Capacidades
                 break;
             }
